@@ -1,0 +1,41 @@
+# --- Secrets & Environment ---
+.env
+.venv/
+env/
+venv/
+*.env
+auth.json
+kaggle.json
+
+# --- Model Weights & Data (Crucial to avoid 100MB limit) ---
+checkpoints/
+models/
+notebooks/
+results/
+data/
+*.pth
+*.pkl
+*.h5
+*.onnx
+
+# --- Temporary / Local Files ---
+temp_upload.jpg
+temp_*/
+*.log
+.ipynb_checkpoints/
+
+# --- Python Junk ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
