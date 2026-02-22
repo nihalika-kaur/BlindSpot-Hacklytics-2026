@@ -34,3 +34,9 @@ wandb>=0.15.0
 
 # Kaggle API (for downloading ODIR-5K)
 kaggle>=1.5.0
+
+# ===== Streamlit Web App =====
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+google-generativeai>=0.3.0
+

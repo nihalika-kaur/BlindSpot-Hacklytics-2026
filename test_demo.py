@@ -13,7 +13,7 @@ else:
     print("🧠 RetiSense is thinking...")
     
     # 2. Run analysis using your NEWLY saved final weights
-    report = run_retisense_analysis(test_image, model_path="checkpoints/final_retisense_model.pth")
+    report = run_retisense_analysis(test_image, model_path="checkpoints/retisense_final_v2.pth")
 
     print("\n" + "="*30)
     print("      RETISENSE REPORT      ")
